@@ -112,7 +112,6 @@ ClassicEditor.defaultConfig = {
 			'trackChanges',
 		]
 	},
-	plugins: [ Image, ImageToolbar, ImageCaption, ImageStyle, ImageResize ],
 	image: {
 		toolbar: [
 			'imageStyle:full',

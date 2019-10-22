@@ -106,7 +106,7 @@ ClassicEditor.defaultConfig = {
 			'blockQuote',
 			'insertTable',
 			'undo',
-			'redo',
+			'redo'
 		]
 	},
 	image: {

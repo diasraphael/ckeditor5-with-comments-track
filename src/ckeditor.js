@@ -117,6 +117,8 @@ ClassicEditor.defaultConfig = {
 			'imageStyle:full',
 			'imageStyle:alignLeft',
 			'imageStyle:alignRight',
+			'|',
+			'imageTextAlternative'
 		]
 	},
 	table: {

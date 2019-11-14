@@ -9,6 +9,7 @@ import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classicedi
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
+import AutoSave from '@ckeditor/ckeditor5-autosave/src/autosave';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
@@ -46,6 +47,7 @@ ClassicEditor.builtinPlugins = [
 	Essentials,
 	UploadAdapter,
 	Autoformat,
+	AutoSave,
 	Bold,
 	Italic,
 	Underline,
@@ -82,12 +84,10 @@ ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
 			'heading',
-			'|',
 			'fontSize',
 			'fontFamily',
 			'fontColor',
 			'fontBackgroundColor',
-			'|',
 			'bold',
 			'italic',
 			'underline',
@@ -95,7 +95,6 @@ ClassicEditor.defaultConfig = {
 			'blockQuote',
 			'subscript',
 			'superscript',
-			'|',
 			'highlight',
 			'outdent',
 			'indent',
@@ -107,7 +106,6 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'undo',
 			'redo',
-			'|',
 			'comment',
 			'trackChanges',
 		]

@@ -9,7 +9,6 @@ import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classicedi
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
-import AutoSave from '@ckeditor/ckeditor5-autosave/src/autosave';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
@@ -39,6 +38,7 @@ import Font from '@ckeditor/ckeditor5-font/src/font';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Comments from '@ckeditor/ckeditor5-comments/src/comments';
 import TrackChanges from '@ckeditor/ckeditor5-track-changes/src/trackchanges';
+import AutoSave from '@ckeditor/ckeditor5-autosave/src/autosave';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -47,7 +47,6 @@ ClassicEditor.builtinPlugins = [
 	Essentials,
 	UploadAdapter,
 	Autoformat,
-	AutoSave,
 	Bold,
 	Italic,
 	Underline,
@@ -76,7 +75,8 @@ ClassicEditor.builtinPlugins = [
 	Font,
 	Alignment,
 	Comments,
-	TrackChanges
+	TrackChanges,
+	AutoSave
 ];
 
 // Editor configuration.

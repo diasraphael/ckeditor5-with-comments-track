@@ -102,7 +102,6 @@ ClassicEditor.defaultConfig = {
 			'bulletedList',
 			'numberedList',
 			'imageUpload',
-			'blockQuote',
 			'insertTable',
 			'undo',
 			'redo',
@@ -114,9 +113,7 @@ ClassicEditor.defaultConfig = {
 		toolbar: [
 			'imageStyle:full',
 			'imageStyle:alignLeft',
-			'imageStyle:alignRight',
-			'|',
-			'imageTextAlternative'
+			'imageStyle:alignRight'
 		]
 	},
 	table: {

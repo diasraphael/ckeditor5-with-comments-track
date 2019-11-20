@@ -39,6 +39,7 @@ import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Comments from '@ckeditor/ckeditor5-comments/src/comments';
 import TrackChanges from '@ckeditor/ckeditor5-track-changes/src/trackchanges';
 import AutoSave from '@ckeditor/ckeditor5-autosave/src/autosave';
+import PendingActions from '@ckeditor/ckeditor5-core/src/pendingactions';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -76,7 +77,8 @@ ClassicEditor.builtinPlugins = [
 	Alignment,
 	Comments,
 	TrackChanges,
-	AutoSave
+	AutoSave,
+	PendingActions
 ];
 
 // Editor configuration.

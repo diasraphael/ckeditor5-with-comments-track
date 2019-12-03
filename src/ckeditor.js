@@ -5,6 +5,7 @@
 
 // The editor creator to use.
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
+import Watchdog from '@ckeditor/ckeditor5-watchdog/src/watchdog';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
@@ -78,7 +79,8 @@ ClassicEditor.builtinPlugins = [
 	Comments,
 	TrackChanges,
 	AutoSave,
-	PendingActions
+	PendingActions,
+	Watchdog
 ];
 
 // Editor configuration.

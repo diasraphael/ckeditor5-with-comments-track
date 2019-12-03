@@ -42,7 +42,7 @@ import TrackChanges from '@ckeditor/ckeditor5-track-changes/src/trackchanges';
 import AutoSave from '@ckeditor/ckeditor5-autosave/src/autosave';
 import PendingActions from '@ckeditor/ckeditor5-core/src/pendingactions';
 
-export default class ClassicEditor extends ClassicEditorBase {}
+class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
@@ -130,3 +130,5 @@ ClassicEditor.defaultConfig = {
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'
 };
+
+export default { ClassicEditor, Watchdog };

@@ -5,7 +5,7 @@
 
 // The editor creator to use.
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
-import Watchdog from '@ckeditor/ckeditor5-watchdog/src/watchdog';
+import Watchdog from '@ckeditor/ckeditor5-watchdog/src/editorwatchdog';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
@@ -110,7 +110,7 @@ ClassicEditor.defaultConfig = {
 			'undo',
 			'redo',
 			'comment',
-			'trackChanges',
+			'trackChanges'
 		]
 	},
 	image: {

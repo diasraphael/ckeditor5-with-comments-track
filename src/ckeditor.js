@@ -87,6 +87,65 @@ ClassicEditor.builtinPlugins = [
 	Watchdog
 ];
 
+const customColorPalette = [
+	{
+		color: '#28B482',
+		label: 'Green'
+	},
+	{
+		color: '#4BBED2',
+		label: 'Blue'
+	},
+	{
+		color: '#C9ECF2',
+		label: 'Light Blue'
+	},
+	{
+		color: '#FDBB31',
+		label: 'Yellow'
+	},
+	{
+		color: '#FEEBC1',
+		label: 'Light Orange'
+	},
+	{
+		color: '#EA7F7F',
+		label: 'Pink'
+	},
+	{
+		color: '#F8D4D4',
+		label: 'Light Pink'
+	},
+	{
+		color: '#FF9866',
+		label: 'Brown'
+	},
+	{
+		color: '#FFDDCC',
+		label: 'Light Brown'
+	},
+	{
+		color: '#BFE9DA',
+		label: 'Ice'
+	},
+	{
+		color: '#A5E1D2',
+		label: 'Glory'
+	},
+	{
+		color: '#D2F0E9',
+		label: 'Iceberg'
+	},
+	{
+		color: '#E9F8F4',
+		label: 'Aqua'
+	},
+	{
+		color: '#F4FBF9',
+		label: 'Light Aqua'
+	}
+];
+
 // Editor configuration.
 ClassicEditor.defaultConfig = {
 	toolbar: {
@@ -138,7 +197,18 @@ ClassicEditor.defaultConfig = {
 			'mergeTableCells',
 			'tableProperties',
 			'tableCellProperties'
-		]
+		],
+		// Set the palettes for tables.
+		tableProperties: {
+			borderColors: customColorPalette,
+			backgroundColors: customColorPalette
+		},
+
+		// Set the palettes for table cells.
+		tableCellProperties: {
+			borderColors: customColorPalette,
+			backgroundColors: customColorPalette
+		}
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'

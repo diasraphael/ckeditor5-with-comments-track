@@ -146,6 +146,49 @@ const customColorPalette = [
 	}
 ];
 
+const customColorTextPalette = [
+	{
+		color: '#000000',
+		label: 'Black'
+	},
+	{
+		color: '#333333',
+		label: 'Lighter Black'
+	},
+	{
+		color: '#4d4d4d',
+		label: 'Ash'
+	},
+	{
+		color: '#00343e',
+		label: 'Darker Teal'
+	},
+	{
+		color: '#14555a',
+		label: 'Dark Teal'
+	},
+	{
+		color: '#007272',
+		label: 'Teal'
+	},
+	{
+		color: '#23195a',
+		label: 'Blue'
+	},
+	{
+		color: '#6e2382',
+		label: 'Purple'
+	},
+	{
+		color: '#DC2A2A',
+		label: 'Red'
+	},
+	{
+		color: '#008000',
+		label: 'Green'
+	}
+];
+
 // Editor configuration.
 ClassicEditor.defaultConfig = {
 	toolbar: {
@@ -189,6 +232,12 @@ ClassicEditor.defaultConfig = {
 			'imageStyle:alignLeft',
 			'imageStyle:alignRight'
 		]
+	},
+	fontColor: {
+		colors: customColorTextPalette
+	},
+	fontBackgroundColor: {
+		colors: customColorPalette
 	},
 	table: {
 		contentToolbar: [

@@ -31,6 +31,8 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
+import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
@@ -70,6 +72,8 @@ ClassicEditor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
+	TableProperties,
+	TableCellProperties,
 	Base64UploadAdapter,
 	Highlight,
 	Indent,
@@ -88,29 +92,36 @@ ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
 			'heading',
+			'|',
 			'fontSize',
 			'fontFamily',
 			'fontColor',
 			'fontBackgroundColor',
+			'|',
 			'bold',
 			'italic',
 			'underline',
 			'strikethrough',
-			'blockQuote',
-			'subscript',
-			'superscript',
-			'highlight',
-			'outdent',
-			'indent',
+			'|',
 			'alignment',
+			'|',
 			'bulletedList',
 			'numberedList',
-			'imageUpload',
+			'|',
+			'outdent',
+			'indent',
+			'|',
+			'comment',
+			'trackChanges',
+			'|',
 			'insertTable',
+			'imageUpload',
+			'blockQuote',
+			'highlight',
 			'undo',
 			'redo',
-			'comment',
-			'trackChanges'
+			'subscript',
+			'superscript'
 		]
 	},
 	image: {
@@ -124,7 +135,9 @@ ClassicEditor.defaultConfig = {
 		contentToolbar: [
 			'tableColumn',
 			'tableRow',
-			'mergeTableCells'
+			'mergeTableCells',
+			'tableProperties',
+			'tableCellProperties'
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.

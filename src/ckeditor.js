@@ -143,6 +143,46 @@ const customColorPalette = [
 	{
 		color: '#F4FBF9',
 		label: 'Light Aqua'
+	},
+	{
+		color: '#000000',
+		label: 'Black'
+	},
+	{
+		color: '#333333',
+		label: 'Lighter Black'
+	},
+	{
+		color: '#4d4d4d',
+		label: 'Ash'
+	},
+	{
+		color: '#00343e',
+		label: 'Darker Teal'
+	},
+	{
+		color: '#14555a',
+		label: 'Dark Teal'
+	},
+	{
+		color: '#007272',
+		label: 'Teal'
+	},
+	{
+		color: '#23195a',
+		label: 'Blue'
+	},
+	{
+		color: '#6e2382',
+		label: 'Purple'
+	},
+	{
+		color: '#DC2A2A',
+		label: 'Red'
+	},
+	{
+		color: '#008000',
+		label: 'Green'
 	}
 ];
 
@@ -186,6 +226,62 @@ const customColorTextPalette = [
 	{
 		color: '#008000',
 		label: 'Green'
+	},
+	{
+		color: '#28B482',
+		label: 'Green'
+	},
+	{
+		color: '#4BBED2',
+		label: 'Blue'
+	},
+	{
+		color: '#C9ECF2',
+		label: 'Light Blue'
+	},
+	{
+		color: '#FDBB31',
+		label: 'Yellow'
+	},
+	{
+		color: '#FEEBC1',
+		label: 'Light Orange'
+	},
+	{
+		color: '#EA7F7F',
+		label: 'Pink'
+	},
+	{
+		color: '#F8D4D4',
+		label: 'Light Pink'
+	},
+	{
+		color: '#FF9866',
+		label: 'Brown'
+	},
+	{
+		color: '#FFDDCC',
+		label: 'Light Brown'
+	},
+	{
+		color: '#BFE9DA',
+		label: 'Ice'
+	},
+	{
+		color: '#A5E1D2',
+		label: 'Glory'
+	},
+	{
+		color: '#D2F0E9',
+		label: 'Iceberg'
+	},
+	{
+		color: '#E9F8F4',
+		label: 'Aqua'
+	},
+	{
+		color: '#F4FBF9',
+		label: 'Light Aqua'
 	}
 ];
 

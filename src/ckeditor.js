@@ -11,6 +11,7 @@ import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
+import Font from '@ckeditor/ckeditor5-font/src/font';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
@@ -37,7 +38,6 @@ import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64u
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock';
-import Font from '@ckeditor/ckeditor5-font/src/font';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Comments from '@ckeditor/ckeditor5-comments/src/comments';
 import TrackChanges from '@ckeditor/ckeditor5-track-changes/src/trackchanges';

@@ -34,6 +34,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
+import TableCellPropertiesEditing from '@ckeditor/ckeditor5-table/src/tablecellproperties/tablecellpropertiesediting';
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
@@ -74,6 +75,7 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	TableProperties,
 	TableCellProperties,
+	TableCellPropertiesEditing,
 	Base64UploadAdapter,
 	Highlight,
 	Indent,
